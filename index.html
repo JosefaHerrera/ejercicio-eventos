@@ -1,1 +1,38 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<!-- onload="funcion()" , va dentro de la pagina body, ya que espera que cargen todos los elementos que tiene la pagina, y luego aparece un mensaje equis avisando que la pagina esta lista para ser utilizada.
+
+								llamar funcion creada desde Javascript :
+
+										function PaginaCargada(){
+											alert("la pagina esta cargada ! ")
+											};-->
+
+<body onload="PaginaCargada();">
+
+    <div class="container">
+        <!--Input para el onmouseout , onmouseover. Evento del cursor
+        onmouseout="funcion()" , onmouseover="funcion()"-->
+        <div class="input-text">
+            <label for="input-text">Input</label>
+            <input type="text" name="" value="" id="input-text" onmouseout="mouseOut();" onmouseover="mouseOver();">
+        </div>
+
+        <!--Crea el botón id "demo"-->
+        <div class="boton">
+            <label for="">Click para cambiar</label>
+            <button type="button" id="demo">Enviar!</button>
+            <script type="text/javascript" src="assets/js/main.js"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>
