@@ -10,3 +10,11 @@ function PaginaCargada(){
 
 };
 
+function sobreMi(){
+
+};
+
+function noSobreMi(){
+
+};
+
