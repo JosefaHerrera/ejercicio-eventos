@@ -1,1 +1,24 @@
-main.css
+
+body {
+    background-color: whitesmoke;
+    padding: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.input-text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    text-align: center;
+    border: 0px solid;
+	border-style: solid;
+	/*internet*/
+	border-width: 26px 27px 27px 29px;
+	-moz-border-image: url(http://www.w3.org/TR/css3-background/border.png) 26 27 27 29 repeat;
+	-webkit-border-image: url(http://www.w3.org/TR/css3-background/border.png) 26 27 27 29 repeat;
+	-o-border-image: url(http://www.w3.org/TR/css3-background/border.png) 26 27 27 29 repeat;
+	border-image: url(http://www.w3.org/TR/css3-background/border.png) 26 27 27 29 fill repeat;
+}
+
