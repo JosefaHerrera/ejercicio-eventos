@@ -11,10 +11,11 @@ function PaginaCargada(){
 };
 
 function sobreMi(){
-
+	alert("Estas sobre mi ");
 };
 
 function noSobreMi(){
-
+	alert("No estas sobre mi ");
 };
+
 
